@@ -1,0 +1,42 @@
+
+
+.pen-item {
+    flex: 1;
+    background-color: gray;
+    margin: 0.2em;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+  }
+
+.pen-item:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.turtle-item {
+    background: url(../turtle.svg);
+    background-color: greenyellow;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    height: 120px;
+    margin: 0.2em;
+}
+
+.rotate-0 {
+    transform:rotate(0deg); 
+}
+
+.rotate-90 {
+    transform:rotate(90deg); 
+}
+
+.rotate-180 {
+    transform:rotate(180deg); 
+}
+
+.rotate-270 {
+    transform:rotate(270deg); 
+}

@@ -1,0 +1,49 @@
+.App {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid gray;
+  box-shadow: #222;
+  padding: 20px;
+}
+
+.container > p {
+  font-size: 1.5em;
+}
+
+.command-entry {
+  display: flex;
+  margin: 5px;
+}
+
+.turtle-pen {
+}
+
+.form-field {
+  padding: 13px 10px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.btn {
+  padding: 15px 25px;
+  background-color: yellowgreen;
+  border: none;
+  color: white;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  background-color: gray;
+  margin: 0.2em;
+}
